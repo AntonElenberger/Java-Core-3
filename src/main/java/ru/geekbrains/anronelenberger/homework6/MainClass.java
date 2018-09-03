@@ -3,15 +3,16 @@ package ru.geekbrains.anronelenberger.homework6;
 /**
  * @author Anton Elenberger
  */
+
 public class MainClass {
-    public static void main(String[] args) {
+       public static void main(String[] args) {
 
     }
 
     public static int[] task1(int... input) throws RuntimeException {
         int start = input.length;
 
-        for(int i = input.length - 1; i >= 0; i++) {
+        for(int i = input.length - 1; i >= 0; i--) {
             if(input[i] == 4) {
                 start = i;
                 break;

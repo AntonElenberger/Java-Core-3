@@ -13,7 +13,7 @@ public class TestOfTask1 {
     @Test
     public void test2() {
         int[] array2 = {7};
-        Assert.assertArrayEquals(MainClass.task1(1, 4, 3, 4, 5, 6, 7), array2);
+        Assert.assertArrayEquals(MainClass.task1(1, 4, 3, 4, 5, 4, 7), array2);
     }
 
     @Test
